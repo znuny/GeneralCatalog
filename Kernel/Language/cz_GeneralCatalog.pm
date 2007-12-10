@@ -1,8 +1,8 @@
 # --
-# Kernel/Language/cz_GeneralCatalog.pm - the cz translation of GeneralCatalog
+# Kernel/Language/cz_GeneralCatalog.pm - the czech translation of GeneralCatalog
 # Copyright (C) 2001-2007 OTRS GmbH, http://otrs.org/
 # --
-# $Id: cz_GeneralCatalog.pm,v 1.1.2.1 2007-12-10 13:34:01 mh Exp $
+# $Id: cz_GeneralCatalog.pm,v 1.1.2.2 2007-12-10 13:52:04 mh Exp $
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
