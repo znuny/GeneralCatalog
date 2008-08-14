@@ -1,8 +1,9 @@
 # --
 # Kernel/Language/bg_GeneralCatalog.pm - the bulgarian translation of GeneralCatalog
 # Copyright (C) 2001-2008 OTRS AG, http://otrs.org/
+# Copyright (C) 2007-2008 Milen Koutev
 # --
-# $Id: bg_GeneralCatalog.pm,v 1.7 2008-05-21 08:36:37 mh Exp $
+# $Id: bg_GeneralCatalog.pm,v 1.7.2.1 2008-08-14 11:57:42 mh Exp $
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -15,7 +16,7 @@ use strict;
 use warnings;
 
 use vars qw($VERSION);
-$VERSION = qw($Revision: 1.7 $) [1];
+$VERSION = qw($Revision: 1.7.2.1 $) [1];
 
 sub Data {
     my $Self = shift;
