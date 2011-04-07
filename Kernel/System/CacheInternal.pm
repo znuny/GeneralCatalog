@@ -1,9 +1,9 @@
 # --
 # Kernel/System/CacheInternal.pm - all cache functions
-# Copyright (C) 2001-2010 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
 # --
-# $Id: CacheInternal.pm,v 1.4 2010-06-24 13:28:35 ub Exp $
-# $OldId: CacheInternal.pm,v 1.5 2010/06/17 21:39:40 cr Exp $
+# $Id: CacheInternal.pm,v 1.4.2.1 2011-04-07 20:15:56 ub Exp $
+# $OldId: CacheInternal.pm,v 1.9 2010/11/30 13:11:11 mg Exp $
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
@@ -17,7 +17,7 @@ use warnings;
 use Kernel::System::Cache;
 
 use vars qw(@ISA $VERSION);
-$VERSION = qw($Revision: 1.4 $) [1];
+$VERSION = qw($Revision: 1.4.2.1 $) [1];
 
 =head1 NAME
 
@@ -27,11 +27,10 @@ Kernel::System::CacheInternal - cache lib
 
 All cache functions for internal cache management.
 
-WARNING:
-This module is storing the cache information not only in the file system, but also in memory.
-It can be dangerous and lead to incorrect caching information, if a module that makes use of
-Kernel::System::CacheInternal is created more than once during the same web request!
-Just use Kernel::System::Cache in that case, and do not cache the information in memory!
+Notice:
+This module is storing the cache information in memory and also permanently (e. g. in file system).
+So you need to take care, that you have not several instances of the CacheInternalObject at one
+runtime, because the in memory cache will fail then.
 
 =head1 PUBLIC INTERFACE
 
@@ -224,6 +223,20 @@ delete all caches
 
     $CacheInternalObject->CleanUp();
 
+If another cache type needs to be cleaned up, you can
+use the parameter 'OtherType'.
+
+    $CacheInternalObject->CleanUp(OtherType => 'SomeType');
+
+This is useful for cleaning up dependent cache entries after
+the modification of objects (for example, cleaning up the group
+cache after modifying agents).
+
+NOTE: This 'OtherType'-cleanup only affects permanent caches.
+In-memory-caches in other CacheInternal objects cannot be cleaned
+up presently, therefore a refactoring of the entire caching architecture
+will be neccessary.
+
 =cut
 
 sub CleanUp {
@@ -234,7 +247,17 @@ sub CleanUp {
 
     # delete permanent cache
     if ( $Self->{CacheObject} ) {
-        return if !$Self->{CacheObject}->CleanUp( Type => $Self->{Type} );
+
+        if ( $Param{OtherType} ) {
+            return if !$Self->{CacheObject}->CleanUp(
+                Type => 'CacheInternal' . $Param{OtherType}
+            );
+        }
+        else {
+            return if !$Self->{CacheObject}->CleanUp(
+                Type => $Self->{Type}
+            );
+        }
     }
 
     return 1;
@@ -256,6 +279,6 @@ did not receive this file, see L<http://www.gnu.org/licenses/agpl.txt>.
 
 =head1 VERSION
 
-$Revision: 1.4 $ $Date: 2010-06-24 13:28:35 $
+$Revision: 1.4.2.1 $ $Date: 2011-04-07 20:15:56 $
 
 =cut
