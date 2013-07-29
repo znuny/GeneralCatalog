@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <otrs_config version="1.0" init="Framework">
     <CVS>$Id: GeneralCatalog.xml,v 1.8 2011-01-24 16:15:09 ub Exp $</CVS>
     <ConfigItem Name="Frontend::Module###AdminGeneralCatalog" Required="0" Valid="1">
