@@ -1,6 +1,6 @@
 # --
 # Kernel/System/GeneralCatalog.pm - all general catalog functions
-# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
+# Copyright (C) 2001-2015 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
@@ -263,8 +263,7 @@ sub ItemList {
             $PreferencesCacheKey .= join q{####}, $Key, map {$_} @{ $Param{Preferences}->{$Key} };
         }
 
-        $PreferencesWhere
-            = 'AND general_catalog.id = general_catalog_preferences.general_catalog_id';
+        $PreferencesWhere = 'AND general_catalog.id = general_catalog_preferences.general_catalog_id';
         $PreferencesWhere .= ' AND ' . join ' AND ', @Wheres;
     }
 
@@ -279,8 +278,7 @@ sub ItemList {
     }
 
     # create cache key
-    my $CacheKey
-        = 'ItemList::' . $Param{Class} . '####' . $Param{Valid} . '####' . $PreferencesCacheKey;
+    my $CacheKey = 'ItemList::' . $Param{Class} . '####' . $Param{Valid} . '####' . $PreferencesCacheKey;
 
     # check if result is already cached
     my $Cache = $Self->{CacheInternalObject}->Get( Key => $CacheKey );
@@ -502,7 +500,7 @@ sub ItemAdd {
     $Self->{DBObject}->Prepare(
         SQL => 'SELECT id FROM general_catalog '
             . 'WHERE general_catalog_class = ? AND name = ?',
-        Bind => [ \$Param{Class}, \$Param{Name} ],
+        Bind  => [ \$Param{Class}, \$Param{Name} ],
         Limit => 1,
     );
 
@@ -543,7 +541,7 @@ sub ItemAdd {
     $Self->{DBObject}->Prepare(
         SQL => 'SELECT id FROM general_catalog '
             . 'WHERE general_catalog_class = ? AND name = ?',
-        Bind => [ \$Param{Class}, \$Param{Name} ],
+        Bind  => [ \$Param{Class}, \$Param{Name} ],
         Limit => 1,
     );
 

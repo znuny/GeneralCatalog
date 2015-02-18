@@ -1,6 +1,6 @@
 # --
 # GeneralCatalog.t - general catalog tests
-# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
+# Copyright (C) 2001-2015 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
@@ -67,8 +67,7 @@ for my $Counter ( 1 .. 3 ) {
 # store original general catalog permission preferences setting
 my $GeneralCatalogPreferencesPermissionsOrg;
 if ( $Self->{ConfigObject}->Get('GeneralCatalogPreferences') ) {
-    $GeneralCatalogPreferencesPermissionsOrg
-        = $Self->{ConfigObject}->Get('GeneralCatalogPreferences')->{Permissions};
+    $GeneralCatalogPreferencesPermissionsOrg = $Self->{ConfigObject}->Get('GeneralCatalogPreferences')->{Permissions};
 }
 
 # enable general catalog permission preferences setting with a dummy true value

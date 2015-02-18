@@ -1,6 +1,6 @@
 # --
 # Kernel/Output/HTML/GeneralCatalogPreferencesGeneric.pm
-# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
+# Copyright (C) 2001-2015 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
@@ -42,8 +42,7 @@ sub Param {
     my $GetParam = $Self->{ParamObject}->GetParam( Param => $Self->{ConfigItem}->{PrefKey} );
 
     if ( !defined($GetParam) ) {
-        $GetParam
-            = defined( $Param{GeneralCatalogData}->{ $Self->{ConfigItem}->{PrefKey} } )
+        $GetParam = defined( $Param{GeneralCatalogData}->{ $Self->{ConfigItem}->{PrefKey} } )
             ? $Param{GeneralCatalogData}->{ $Self->{ConfigItem}->{PrefKey} }
             : $Self->{ConfigItem}->{DataSelected};
     }
