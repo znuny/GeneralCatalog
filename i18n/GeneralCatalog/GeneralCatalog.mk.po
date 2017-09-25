@@ -1,37 +1,38 @@
 # 
 # Translators:
+# Viktor Mladenovski <vice.mladenovski.93@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-08-21 11:46+0000\n"
-"PO-Revision-Date: 2017-09-21 12:14+0000\n"
+"PO-Revision-Date: 2017-09-21 21:32+0000\n"
 "Last-Translator: Udo Bretz\n"
-"Language-Team: Danish (http://www.transifex.com/otrs/OTRS/language/da/)\n"
+"Language-Team: Macedonian (http://www.transifex.com/otrs/OTRS/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: mk\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
 #. Template: AAAGeneralCatalog
 msgid "Functionality"
-msgstr "Funktionalitet"
+msgstr "Функционалност"
 
 #. Template: AdminGeneralCatalog
 msgid "General Catalog Management"
-msgstr "General Katalog Management"
+msgstr "Општ Каталог Менаџмент"
 
 #. Template: AdminGeneralCatalog
 msgid "Add Catalog Item"
-msgstr "Tilføj katalog post"
+msgstr "Додади Каталог ставка"
 
 #. Template: AdminGeneralCatalog
 msgid "Add Catalog Class"
-msgstr "Tilføj Katalog klasse"
+msgstr "Додади Каталог Класа"
 
 #. Template: AdminGeneralCatalog
 msgid "Catalog Class"
-msgstr "Katalog Klasse"
+msgstr "Каталог Класа"
 
 #. Template: AdminGeneralCatalog
 msgid "Edit Catalog Item"
@@ -43,25 +44,25 @@ msgstr ""
 
 #. SysConfig
 msgid "Create and manage the General Catalog."
-msgstr ""
+msgstr "Додади и Менаџирај го Општиот Каталог."
 
 #. SysConfig
 msgid ""
 "Frontend module registration for the AdminGeneralCatalog configuration in "
 "the admin area."
-msgstr ""
+msgstr "Позадински модул регистрација за АдминОпштКаталог конфигурација во админ дел."
 
 #. SysConfig
 msgid "General Catalog"
-msgstr "General Katalog"
+msgstr "Општ Каталог"
 
 #. SysConfig
 msgid ""
 "Parameters for the example comment 2 of the general catalog attributes."
-msgstr ""
+msgstr "Параметар за пример коментар 2 од општ каталог атрибут"
 
 #. SysConfig
 msgid ""
 "Parameters for the example permission groups of the general catalog "
 "attributes."
-msgstr ""
+msgstr "Параметри за пример дозволите за групи од генерални каталог атрибути."

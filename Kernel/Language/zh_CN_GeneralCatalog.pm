@@ -23,7 +23,7 @@ sub Data {
     $Self->{Translation}->{'Add Catalog Item'} = '添加目录项目';
     $Self->{Translation}->{'Add Catalog Class'} = '添加新目录类';
     $Self->{Translation}->{'Catalog Class'} = '目录类';
-    $Self->{Translation}->{'Edit Catalog Item'} = '';
+    $Self->{Translation}->{'Edit Catalog Item'} = '编辑目录项目';
 
     # SysConfig
     $Self->{Translation}->{'Admin.'} = '系统管理。';

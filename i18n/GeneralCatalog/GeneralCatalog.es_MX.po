@@ -1,69 +1,69 @@
 # 
 # Translators:
-# Ettore Atalan <atalanttore@googlemail.com>, 2017
+# Ivan Miron <ivan.miron@gmail.com>, 2015
 # Udo Bretz, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-08-21 11:46+0000\n"
 "PO-Revision-Date: 2017-09-21 12:14+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
+"Last-Translator: Udo Bretz\n"
+"Language-Team: Spanish (Mexico) (http://www.transifex.com/otrs/OTRS/language/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
+"Language: es_MX\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Template: AAAGeneralCatalog
 msgid "Functionality"
-msgstr "Funktionalität"
+msgstr "Funcionalidad"
 
 #. Template: AdminGeneralCatalog
 msgid "General Catalog Management"
-msgstr "Allgemeine Katalogverwaltung"
+msgstr "Administración del Catálogo General"
 
 #. Template: AdminGeneralCatalog
 msgid "Add Catalog Item"
-msgstr "Katalogartikel hinzufügen"
+msgstr "Añadir artículo del catálogo"
 
 #. Template: AdminGeneralCatalog
 msgid "Add Catalog Class"
-msgstr "Katalogklasse hinzufügen"
+msgstr "Añadir clase del catálogo"
 
 #. Template: AdminGeneralCatalog
 msgid "Catalog Class"
-msgstr "Katalogklasse"
+msgstr "Catálogo de clases"
 
 #. Template: AdminGeneralCatalog
 msgid "Edit Catalog Item"
-msgstr "Katalogartikel bearbeiten"
+msgstr ""
 
 #. SysConfig
 msgid "Admin."
-msgstr "Admin."
+msgstr "Administración."
 
 #. SysConfig
 msgid "Create and manage the General Catalog."
-msgstr "Allgemeinen Katalog erstellen und verwalten."
+msgstr "Crear y administrar el Catálogo General"
 
 #. SysConfig
 msgid ""
 "Frontend module registration for the AdminGeneralCatalog configuration in "
 "the admin area."
-msgstr "Frontendmodul-Registration der AdminGeneralCatalog Konfiguration im Admin-Bereich."
+msgstr "Registro del módulo de Frontend para la administración del catálogo general en el área de administración"
 
 #. SysConfig
 msgid "General Catalog"
-msgstr "Allgemeiner Katalog"
+msgstr "Catálogo General"
 
 #. SysConfig
 msgid ""
 "Parameters for the example comment 2 of the general catalog attributes."
-msgstr "Parameter für den Beispiel-Kommentar 2 der General-Katalog-Attribute."
+msgstr "Parámetros para el comentario de ejemplo 2 del catálogo general de atributos"
 
 #. SysConfig
 msgid ""
 "Parameters for the example permission groups of the general catalog "
 "attributes."
-msgstr "Parameter für die zugriffsberechtigte Gruppe der General-Katalog-Attribute."
+msgstr "Parámetros para el ejemplo de permisos de grupo del catálogo general de atributos"

@@ -23,7 +23,7 @@ sub Data {
     $Self->{Translation}->{'Add Catalog Item'} = 'Katalóguselem hozzáadása';
     $Self->{Translation}->{'Add Catalog Class'} = 'Katalógusosztály hozzáadása';
     $Self->{Translation}->{'Catalog Class'} = 'Katalógusosztály';
-    $Self->{Translation}->{'Edit Catalog Item'} = '';
+    $Self->{Translation}->{'Edit Catalog Item'} = 'Katalóguselem szerkesztése';
 
     # SysConfig
     $Self->{Translation}->{'Admin.'} = 'Adminisztráció.';

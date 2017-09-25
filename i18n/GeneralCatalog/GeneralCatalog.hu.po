@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Balázs Úr <urbalazs@gmail.com>, 2014-2015
+# Balázs Úr <urbalazs@gmail.com>, 2014-2017
 # Gergely Baranyai <baranyai.gergely@alohainformatika.hu>, 2015
 # Udo Bretz, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-12-10 12:54+0000\n"
-"PO-Revision-Date: 2016-06-03 15:44+0000\n"
+"POT-Creation-Date: 2017-08-21 11:46+0000\n"
+"PO-Revision-Date: 2017-09-23 20:27+0000\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -35,6 +35,10 @@ msgstr "Katalógusosztály hozzáadása"
 #. Template: AdminGeneralCatalog
 msgid "Catalog Class"
 msgstr "Katalógusosztály"
+
+#. Template: AdminGeneralCatalog
+msgid "Edit Catalog Item"
+msgstr "Katalóguselem szerkesztése"
 
 #. SysConfig
 msgid "Admin."
