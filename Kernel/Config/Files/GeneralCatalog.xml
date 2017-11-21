@@ -47,7 +47,7 @@
                 <Item Key="Desc">Define the group with permissions.</Item>
                 <Item Key="Block">Permission</Item>
                 <Item Key="Class">ITSM::ConfigItem::Class</Item>
-                <Item Key="PrefKey">Permissions</Item>
+                <Item Key="PrefKey">Permission</Item>
             </Hash>
         </Setting>
     </ConfigItem>
