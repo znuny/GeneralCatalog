@@ -1,10 +1,9 @@
 # --
-# Kernel/System/GeneralCatalog.pm - all general catalog functions
-# Copyright (C) 2001-2015 OTRS AG, http://otrs.com/
+# Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
-# the enclosed file COPYING for license information (AGPL). If you
-# did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+# the enclosed file COPYING for license information (GPL). If you
+# did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 # --
 
 package Kernel::System::GeneralCatalog;
@@ -367,7 +366,7 @@ sub ItemGet {
 
         # check if result is already cached
         my $CacheKey = 'ItemGet::Class::' . $Param{Class} . '::' . $Param{Name};
-        my $Cache = $Self->{CacheInternalObject}->Get( Key => $CacheKey );
+        my $Cache    = $Self->{CacheInternalObject}->Get( Key => $CacheKey );
         return $Cache if $Cache;
 
         # add class and name to sql string
@@ -378,7 +377,7 @@ sub ItemGet {
 
         # check if result is already cached
         my $CacheKey = 'ItemGet::ItemID::' . $Param{ItemID};
-        my $Cache = $Self->{CacheInternalObject}->Get( Key => $CacheKey );
+        my $Cache    = $Self->{CacheInternalObject}->Get( Key => $CacheKey );
         return $Cache if $Cache;
 
         # add item id to sql string
@@ -720,7 +719,7 @@ sub GeneralCatalogPreferencesGet {
 This Software is part of the OTRS project (http://otrs.org/).
 
 This software comes with ABSOLUTELY NO WARRANTY. For details, see
-the enclosed file COPYING for license information (AGPL). If you
-did not receive this file, see L<http://www.gnu.org/licenses/agpl.txt>.
+the enclosed file COPYING for license information (GPL). If you
+did not receive this file, see L<https://www.gnu.org/licenses/gpl-3.0.txt>.
 
 =cut
