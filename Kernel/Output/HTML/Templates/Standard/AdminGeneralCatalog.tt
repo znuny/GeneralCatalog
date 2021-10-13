@@ -257,7 +257,7 @@
                         [% END %]
                         </label>
                         <div class="Field">
-                            <input type="text" name="[% Data.Name | html %]" id="[% Data.Name | html %]" value="[% Data.SelectedID | html %]" class="W50pc JSColorPicker {pickerBorderColor:'#BBB #BBB #BBB #BBB', pickerInsetColor:'#BBB #BBB #BBB #BBB'}"/>
+                            <input type="text" name="[% Data.Name | html %]" id="[% Data.Name | html %]" value="[% Data.SelectedID | html %]" class="W50pc" data-jscolor="{backgroundColor: 'rgb(245, 245, 245)', borderColor: 'rgb(201, 201, 201)', borderRadius:'0'}">
                         </div>
                         <div class="Clear"></div>
 [% RenderBlockEnd("ColorPicker") %]
