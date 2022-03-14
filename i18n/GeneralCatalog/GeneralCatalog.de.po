@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
-"PO-Revision-Date: 2022-03-14 11:24+0000\n"
+"PO-Revision-Date: 2022-03-14 12:01+0000\n"
 "Last-Translator: Denny Korsukéwitz <dk@znuny.com>\n"
 "Language-Team: German <https://translations.znuny.org/projects/znuny/"
 "generalcatalog/de/>\n"
@@ -67,7 +67,7 @@ msgstr "General Katalog erstellen und verwalten."
 
 #. SysConfig
 msgid "Define the general catalog comment 2."
-msgstr "Legen Sie den Kommentar 2 für den General Katalog fest."
+msgstr "Definiert den Kommentar 2 für General Katalog."
 
 #. SysConfig
 msgid "Defines the URL JS Color Picker path."
@@ -98,4 +98,4 @@ msgstr ""
 
 #. SysConfig
 msgid "Permission Group"
-msgstr "Berechtigungsgruppe \\\\*"
+msgstr "Berechtigungsgruppe"
