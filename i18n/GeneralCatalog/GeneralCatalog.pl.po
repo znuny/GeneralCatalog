@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
-"PO-Revision-Date: 2022-03-14 09:00+0000\n"
+"PO-Revision-Date: 2022-03-14 11:24+0000\n"
 "Last-Translator: Denny Korsukéwitz <dk@znuny.com>\n"
 "Language-Team: Polish <https://translations.znuny.org/projects/znuny/"
 "generalcatalog/pl/>\n"
@@ -88,15 +88,13 @@ msgstr "Katalog główny"
 
 #. SysConfig
 msgid "Parameters for the example comment 2 of the general catalog attributes."
-msgstr ""
-"Parametry do przykładowego komentarza 2 atrybutów katalogu generalnego."
+msgstr "Parametry do przykładowego komentarza 2 atrybutów katalogu generalnego."
 
 #. SysConfig
 msgid ""
 "Parameters for the example permission groups of the general catalog "
 "attributes."
-msgstr ""
-"Parametry dla przykładowych grup uprawnień atrybutów katalogu głównego."
+msgstr "Parametry dla przykładowych grup uprawnień atrybutów katalogu głównego."
 
 #. SysConfig
 msgid "Permission Group"
