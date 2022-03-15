@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
-"PO-Revision-Date: 2022-03-14 12:01+0000\n"
-"Last-Translator: Denny Korsukéwitz <dk@znuny.com>\n"
+"PO-Revision-Date: 2022-03-14 18:19+0000\n"
+"Last-Translator: Weblate Admin <operations@znuny.com>\n"
 "Language-Team: German <https://translations.znuny.org/projects/znuny/"
 "generalcatalog/de/>\n"
 "Language: de\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #. Template: AAAGeneralCatalog
 msgid "Functionality"
@@ -55,7 +55,7 @@ msgstr "Katalogelement bearbeiten"
 
 #. JS File: ITSM.GeneralCatalog
 msgid "Warning incident state can not be set to invalid."
-msgstr "Der Status des Warnvorfalls kann nicht auf ungültig gesetzt werden."
+msgstr "Der Status Warnung für Vorfälle kann nicht auf ungültig gesetzt werden."
 
 #. SysConfig
 msgid "Comment 2"
