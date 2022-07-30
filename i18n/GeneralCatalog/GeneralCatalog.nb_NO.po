@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
-"PO-Revision-Date: 2022-03-14 11:24+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-07-30 16:10+0000\n"
+"Last-Translator: Peter Værlien <peter.varlien@kdrs.no>\n"
 "Language-Team: Norwegian Bokmål <https://translations.znuny.org/projects/"
 "znuny/generalcatalog/nb_NO/>\n"
 "Language: nb_NO\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #. Template: AAAGeneralCatalog
 msgid "Functionality"
@@ -23,7 +23,7 @@ msgstr "Administrasjon av Generell Katalog"
 
 #. Template: AdminGeneralCatalog
 msgid "Items in Class"
-msgstr ""
+msgstr "Objekter i klassen"
 
 #. Template: AdminGeneralCatalog
 msgid "Edit Item"
@@ -31,11 +31,11 @@ msgstr "Endre objekt"
 
 #. Template: AdminGeneralCatalog
 msgid "Add Class"
-msgstr ""
+msgstr "Legg til klasse"
 
 #. Template: AdminGeneralCatalog
 msgid "Add Item"
-msgstr ""
+msgstr "Legg til objekt"
 
 #. Template: AdminGeneralCatalog
 msgid "Add Catalog Item"
@@ -51,27 +51,28 @@ msgstr "Katalog-klasse"
 
 #. Template: AdminGeneralCatalog
 msgid "Edit Catalog Item"
-msgstr ""
+msgstr "Rediger objekt i katalogen"
 
 #. JS File: ITSM.GeneralCatalog
 msgid "Warning incident state can not be set to invalid."
-msgstr ""
+msgstr "Advarsel hendelsestilstand kan ikke settes til ugyldig."
 
 #. SysConfig
 msgid "Comment 2"
-msgstr ""
+msgstr "Kommentar 2"
 
 #. SysConfig
 msgid "Create and manage the General Catalog."
-msgstr "Opprett og administrér den generelle katalogen"
+msgstr "Opprett og administrér den generelle katalogen."
 
 #. SysConfig
 msgid "Define the general catalog comment 2."
-msgstr ""
+msgstr "Definer kommentar 2 i den generelle katalogen."
 
 #. SysConfig
+#, fuzzy
 msgid "Defines the URL JS Color Picker path."
-msgstr ""
+msgstr "Angir stien til URL JS fargevelger."
 
 #. SysConfig
 msgid ""
@@ -86,7 +87,7 @@ msgstr "Generell Katalog"
 
 #. SysConfig
 msgid "Parameters for the example comment 2 of the general catalog attributes."
-msgstr "Parametre for eksempelkommentar 2 i attributtene for generell katalog"
+msgstr "Parametre for eksempelkommentar 2 i attributtene for generell katalog."
 
 #. SysConfig
 msgid ""
@@ -97,4 +98,4 @@ msgstr ""
 
 #. SysConfig
 msgid "Permission Group"
-msgstr ""
+msgstr "Tilgangsgruppe"
