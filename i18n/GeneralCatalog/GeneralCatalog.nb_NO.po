@@ -2,15 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
-"PO-Revision-Date: 2022-03-14 11:24+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Norwegian Bokmål <https://translations.znuny.org/projects/znuny/generalcatalog/nb_NO/>\n"
+"PO-Revision-Date: 2022-07-30 16:10+0000\n"
+"Last-Translator: Peter Værlien <peter.varlien@kdrs.no>\n"
+"Language-Team: Norwegian Bokmål <https://translations.znuny.org/projects/"
+"znuny/generalcatalog/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
 msgid "Functionality"
@@ -22,7 +23,7 @@ msgstr "Administrasjon av Generell Katalog"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Items in Class"
-msgstr ""
+msgstr "Objekter i klassen"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Edit Item"
@@ -30,11 +31,11 @@ msgstr "Endre objekt"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Class"
-msgstr ""
+msgstr "Legg til klasse"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Item"
-msgstr ""
+msgstr "Legg til objekt"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Catalog Item"
@@ -50,27 +51,28 @@ msgstr "Katalog-klasse"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Edit Catalog Item"
-msgstr ""
+msgstr "Rediger objekt i katalogen"
 
 #. JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
 msgid "Warning incident state can not be set to invalid."
-msgstr ""
+msgstr "Advarsel hendelsestilstand kan ikke settes til ugyldig."
 
 #. SysConfig
 msgid "Comment 2"
-msgstr ""
+msgstr "Kommentar 2"
 
 #. SysConfig
 msgid "Create and manage the General Catalog."
-msgstr "Opprett og administrér den generelle katalogen"
+msgstr "Opprett og administrér den generelle katalogen."
 
 #. SysConfig
 msgid "Define the general catalog comment 2."
-msgstr ""
+msgstr "Definer kommentar 2 i den generelle katalogen."
 
 #. SysConfig
+#, fuzzy
 msgid "Defines the URL JS Color Picker path."
-msgstr ""
+msgstr "Angir stien til URL JS fargevelger."
 
 #. SysConfig
 msgid "Frontend module registration for the AdminGeneralCatalog configuration in the admin area."
@@ -82,7 +84,7 @@ msgstr "Generell Katalog"
 
 #. SysConfig
 msgid "Parameters for the example comment 2 of the general catalog attributes."
-msgstr "Parametre for eksempelkommentar 2 i attributtene for generell katalog"
+msgstr "Parametre for eksempelkommentar 2 i attributtene for generell katalog."
 
 #. SysConfig
 msgid "Parameters for the example permission groups of the general catalog attributes."
@@ -90,5 +92,4 @@ msgstr "Parametere for tilgangsgruppe-eksempel i attributtene for generell katal
 
 #. SysConfig
 msgid "Permission Group"
-msgstr ""
-
+msgstr "Tilgangsgruppe"
