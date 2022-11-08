@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,10 +15,10 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AAAGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
     $Self->{Translation}->{'Functionality'} = 'Funkcjonalność';
 
-    # Template: AdminGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
     $Self->{Translation}->{'General Catalog Management'} = 'Zarządzanie katalogiem głównym';
     $Self->{Translation}->{'Items in Class'} = 'Elementy klasy';
     $Self->{Translation}->{'Edit Item'} = 'Edytuj element';
@@ -30,14 +29,13 @@ sub Data {
     $Self->{Translation}->{'Catalog Class'} = 'Klasa katalogu';
     $Self->{Translation}->{'Edit Catalog Item'} = 'Edytuj element katalogu';
 
-    # JS File: ITSM.GeneralCatalog
-    $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = '';
+    # JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
+    $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = 'Uwaga stan incydent nie może zostać ustawiony jako nieważny.';
 
     # SysConfig
     $Self->{Translation}->{'Comment 2'} = 'Komentarz 2';
     $Self->{Translation}->{'Create and manage the General Catalog.'} = 'Utwórz i zarządzaj katalogiem głównym.';
     $Self->{Translation}->{'Define the general catalog comment 2.'} = 'Definiuj komentarz 2 do katalogu głównego';
-    $Self->{Translation}->{'Defines the URL JS Color Picker path.'} = 'Definiuje URL do JS Color Picker.';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
         'Rejestracja modułu frontend do konfiguracji modułu AdminGeneralCatalog w panelu administratora.';
     $Self->{Translation}->{'General Catalog'} = 'Katalog główny';
@@ -45,7 +43,7 @@ sub Data {
         'Parametry do przykładowego komentarza 2 atrybutów katalogu generalnego.';
     $Self->{Translation}->{'Parameters for the example permission groups of the general catalog attributes.'} =
         'Parametry dla przykładowych grup uprawnień atrybutów katalogu głównego.';
-    $Self->{Translation}->{'Permission Group'} = '';
+    $Self->{Translation}->{'Permission Group'} = 'Uprawnienia grup';
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (

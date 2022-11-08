@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,10 +15,10 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AAAGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
     $Self->{Translation}->{'Functionality'} = 'Funktionalität';
 
-    # Template: AdminGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
     $Self->{Translation}->{'General Catalog Management'} = 'General Katalog-Verwaltung';
     $Self->{Translation}->{'Items in Class'} = 'Elemente in Klasse';
     $Self->{Translation}->{'Edit Item'} = 'Ändere das Item';
@@ -30,14 +29,13 @@ sub Data {
     $Self->{Translation}->{'Catalog Class'} = 'Katalogklasse';
     $Self->{Translation}->{'Edit Catalog Item'} = 'Katalogelement bearbeiten';
 
-    # JS File: ITSM.GeneralCatalog
-    $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = 'Der Status des Warnvorfalls kann nicht auf ungültig gesetzt werden.';
+    # JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
+    $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = 'Der Status Warnung für Vorfälle kann nicht auf ungültig gesetzt werden.';
 
     # SysConfig
     $Self->{Translation}->{'Comment 2'} = 'Kommentar 2';
     $Self->{Translation}->{'Create and manage the General Catalog.'} = 'General Katalog erstellen und verwalten.';
-    $Self->{Translation}->{'Define the general catalog comment 2.'} = 'Legen Sie den Kommentar 2 für den General Katalog fest.';
-    $Self->{Translation}->{'Defines the URL JS Color Picker path.'} = 'Definiert die URL des JS-Farbwähler-Pfads.';
+    $Self->{Translation}->{'Define the general catalog comment 2.'} = 'Definiert den Kommentar 2 für General Katalog.';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
         'Registrierung des Frontend-Moduls für die Konfiguration von AdminGeneralCatalog im Admin-Bereich.';
     $Self->{Translation}->{'General Catalog'} = 'General Katalog';
@@ -45,7 +43,7 @@ sub Data {
         'Parameter für den Beispiel-Kommentar 2 der General Katalog-Attribute.';
     $Self->{Translation}->{'Parameters for the example permission groups of the general catalog attributes.'} =
         'Parameter für die zugriffsberechtigte Gruppe der General Katalog-Attribute.';
-    $Self->{Translation}->{'Permission Group'} = 'Berechtigungsgruppe \*';
+    $Self->{Translation}->{'Permission Group'} = 'Berechtigungsgruppe';
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (

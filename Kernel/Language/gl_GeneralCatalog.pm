@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,10 +15,10 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AAAGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
     $Self->{Translation}->{'Functionality'} = 'Funcionalidade';
 
-    # Template: AdminGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
     $Self->{Translation}->{'General Catalog Management'} = 'Xestión do Catálogo Xeral';
     $Self->{Translation}->{'Items in Class'} = '';
     $Self->{Translation}->{'Edit Item'} = '';
@@ -30,14 +29,13 @@ sub Data {
     $Self->{Translation}->{'Catalog Class'} = 'Clase do catálogo';
     $Self->{Translation}->{'Edit Catalog Item'} = '';
 
-    # JS File: ITSM.GeneralCatalog
+    # JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
     $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = '';
 
     # SysConfig
     $Self->{Translation}->{'Comment 2'} = '';
     $Self->{Translation}->{'Create and manage the General Catalog.'} = 'Crear e xestionar o Catálogo Xeral';
     $Self->{Translation}->{'Define the general catalog comment 2.'} = '';
-    $Self->{Translation}->{'Defines the URL JS Color Picker path.'} = '';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
         'Rexistro no módulo de interface para a configuración de AdminGeneralCatalog na área administrativa.';
     $Self->{Translation}->{'General Catalog'} = 'Catálogo Xeral';

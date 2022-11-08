@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,10 +15,10 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AAAGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
     $Self->{Translation}->{'Functionality'} = 'Funzionalità';
 
-    # Template: AdminGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
     $Self->{Translation}->{'General Catalog Management'} = 'Gestione del Catalogo Generale';
     $Self->{Translation}->{'Items in Class'} = 'Elementi nella Classe';
     $Self->{Translation}->{'Edit Item'} = 'Modifica Elemento';
@@ -30,14 +29,13 @@ sub Data {
     $Self->{Translation}->{'Catalog Class'} = 'Classe di Catalogo';
     $Self->{Translation}->{'Edit Catalog Item'} = 'Modifica elemento di catalogo';
 
-    # JS File: ITSM.GeneralCatalog
+    # JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
     $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = 'Lo stato dell\'incidente di avviso non può essere impostato su non valido.';
 
     # SysConfig
     $Self->{Translation}->{'Comment 2'} = 'Commento 2';
     $Self->{Translation}->{'Create and manage the General Catalog.'} = 'Crea e gestisci il Catalogo Generale.';
     $Self->{Translation}->{'Define the general catalog comment 2.'} = 'Definisci il commento 2 del catalogo generale.';
-    $Self->{Translation}->{'Defines the URL JS Color Picker path.'} = 'Specifica il percorso dell\'URL del selettore di colori JS.';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
         'Modulo di registrazione per la configurazione di AdminGeneralCatalog nell\'area di admin.';
     $Self->{Translation}->{'General Catalog'} = 'Catalogo Generale';

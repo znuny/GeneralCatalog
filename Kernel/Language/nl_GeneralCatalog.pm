@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,10 +15,10 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AAAGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
     $Self->{Translation}->{'Functionality'} = 'Functionaliteit';
 
-    # Template: AdminGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
     $Self->{Translation}->{'General Catalog Management'} = 'Algemene Catalogus beheer';
     $Self->{Translation}->{'Items in Class'} = 'Items in klasse';
     $Self->{Translation}->{'Edit Item'} = 'Item bewerken';
@@ -30,14 +29,13 @@ sub Data {
     $Self->{Translation}->{'Catalog Class'} = 'Catalogusklasse';
     $Self->{Translation}->{'Edit Catalog Item'} = 'Catalogusitem bewerken';
 
-    # JS File: ITSM.GeneralCatalog
+    # JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
     $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = 'Waarschuwing incident status kan niet worden ingesteld op ongeldig.';
 
     # SysConfig
     $Self->{Translation}->{'Comment 2'} = 'Commentaar 2';
     $Self->{Translation}->{'Create and manage the General Catalog.'} = 'Maak en beheer de Algemene Catalogus.';
     $Self->{Translation}->{'Define the general catalog comment 2.'} = 'Definieer de algemene cataloguscommentaar 2.';
-    $Self->{Translation}->{'Defines the URL JS Color Picker path.'} = 'Definieert het URL JS-kleurkiezerpad.';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
         'Frontend module registratie voor de AdminGeneralCatalog configuratie in het admin gebied.';
     $Self->{Translation}->{'General Catalog'} = 'Algemene Catalogus';

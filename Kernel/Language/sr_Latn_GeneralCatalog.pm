@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,10 +15,10 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AAAGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
     $Self->{Translation}->{'Functionality'} = 'Funkcionalnost';
 
-    # Template: AdminGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
     $Self->{Translation}->{'General Catalog Management'} = 'Upravljanje Opštim katalogom';
     $Self->{Translation}->{'Items in Class'} = 'Stavke u klasi';
     $Self->{Translation}->{'Edit Item'} = 'Uredi stavku';
@@ -30,14 +29,13 @@ sub Data {
     $Self->{Translation}->{'Catalog Class'} = 'Klasa kataloga';
     $Self->{Translation}->{'Edit Catalog Item'} = 'Uredi stavku kataloga';
 
-    # JS File: ITSM.GeneralCatalog
+    # JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
     $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = 'Status incidenta upozorenja ne može se postaviti na nevažeći.';
 
     # SysConfig
     $Self->{Translation}->{'Comment 2'} = 'Komentar 2';
     $Self->{Translation}->{'Create and manage the General Catalog.'} = 'Kreiranje i upravljanje opštim katalogom.';
     $Self->{Translation}->{'Define the general catalog comment 2.'} = 'Definiše komentar 2 u opštem katalogu.';
-    $Self->{Translation}->{'Defines the URL JS Color Picker path.'} = 'Definiše URL putanju za JS birač boje.';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
         'Registracija pristupnog modula za AdminGeneralCatalog u interfejsu administratora.';
     $Self->{Translation}->{'General Catalog'} = 'Opšti katalog';

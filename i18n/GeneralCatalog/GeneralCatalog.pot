@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
-"POT-Creation-Date: 2020-01-24 11:05+0000\n"
+"POT-Creation-Date: 2022-11-08 14:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,47 +10,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. Template: AAAGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
 msgid "Functionality"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "General Catalog Management"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Items in Class"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Edit Item"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Class"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Item"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Catalog Item"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Catalog Class"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Catalog Class"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Edit Catalog Item"
 msgstr ""
 
-#. JS File: ITSM.GeneralCatalog
+#. JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
 msgid "Warning incident state can not be set to invalid."
 msgstr ""
 
@@ -64,10 +64,6 @@ msgstr ""
 
 #. SysConfig
 msgid "Define the general catalog comment 2."
-msgstr ""
-
-#. SysConfig
-msgid "Defines the URL JS Color Picker path."
 msgstr ""
 
 #. SysConfig

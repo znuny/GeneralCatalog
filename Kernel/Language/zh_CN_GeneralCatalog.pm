@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,12 +15,12 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AAAGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
     $Self->{Translation}->{'Functionality'} = '功能';
 
-    # Template: AdminGeneralCatalog
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
     $Self->{Translation}->{'General Catalog Management'} = '目录管理';
-    $Self->{Translation}->{'Items in Class'} = '以下条目属于类';
+    $Self->{Translation}->{'Items in Class'} = 'XXX以下条目属于类';
     $Self->{Translation}->{'Edit Item'} = '编辑条目';
     $Self->{Translation}->{'Add Class'} = '添加类';
     $Self->{Translation}->{'Add Item'} = '添加条目';
@@ -30,14 +29,13 @@ sub Data {
     $Self->{Translation}->{'Catalog Class'} = '目录类';
     $Self->{Translation}->{'Edit Catalog Item'} = '编辑目录项目';
 
-    # JS File: ITSM.GeneralCatalog
+    # JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
     $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = '警告事件状态不能设置为无效。';
 
     # SysConfig
     $Self->{Translation}->{'Comment 2'} = '注释2';
     $Self->{Translation}->{'Create and manage the General Catalog.'} = '创建和管理目录。';
     $Self->{Translation}->{'Define the general catalog comment 2.'} = '定义通用目录注释2。';
-    $Self->{Translation}->{'Defines the URL JS Color Picker path.'} = '定义JS颜色选择器的路径URL。';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
         '在系统管理中注册目录管理模块AdminGeneralCatalog的前端模块。';
     $Self->{Translation}->{'General Catalog'} = '目录';

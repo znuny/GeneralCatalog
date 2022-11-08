@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
 "PO-Revision-Date: 2022-03-14 11:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: English (United Kingdom) <https://translations.znuny.org/"
-"projects/znuny/generalcatalog/en_GB/>\n"
+"Language-Team: English (United Kingdom) <https://translations.znuny.org/projects/znuny/generalcatalog/en_GB/>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,47 +12,47 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.8\n"
 
-#. Template: AAAGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
 msgid "Functionality"
 msgstr "Functionality"
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "General Catalog Management"
 msgstr "General Catalogue Management"
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Items in Class"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Edit Item"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Class"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Item"
 msgstr ""
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Catalog Item"
 msgstr "Add Catalogue Item"
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Catalog Class"
 msgstr "Add Catalogue Class"
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Catalog Class"
 msgstr "Catalog Class"
 
-#. Template: AdminGeneralCatalog
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Edit Catalog Item"
 msgstr "Edit Catalogue Item"
 
-#. JS File: ITSM.GeneralCatalog
+#. JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
 msgid "Warning incident state can not be set to invalid."
 msgstr ""
 
@@ -74,12 +73,8 @@ msgid "Defines the URL JS Color Picker path."
 msgstr "Defines the URL JS Colour Picker path."
 
 #. SysConfig
-msgid ""
-"Frontend module registration for the AdminGeneralCatalog configuration in "
-"the admin area."
-msgstr ""
-"Frontend module registration for the AdminGeneralCatalogue configuration in "
-"the admin area."
+msgid "Frontend module registration for the AdminGeneralCatalog configuration in the admin area."
+msgstr "Frontend module registration for the AdminGeneralCatalogue configuration in the admin area."
 
 #. SysConfig
 msgid "General Catalog"
@@ -87,17 +82,13 @@ msgstr "General Catalogue"
 
 #. SysConfig
 msgid "Parameters for the example comment 2 of the general catalog attributes."
-msgstr ""
-"Parameters for the example comment 2 of the general catalogue attributes."
+msgstr "Parameters for the example comment 2 of the general catalogue attributes."
 
 #. SysConfig
-msgid ""
-"Parameters for the example permission groups of the general catalog "
-"attributes."
-msgstr ""
-"Parameters for the example permission groups of the general catalogue "
-"attributes."
+msgid "Parameters for the example permission groups of the general catalog attributes."
+msgstr "Parameters for the example permission groups of the general catalogue attributes."
 
 #. SysConfig
 msgid "Permission Group"
 msgstr ""
+
