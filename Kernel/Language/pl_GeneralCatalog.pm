@@ -1,9 +1,9 @@
 # --
-# Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
+# Copyright (C) 2012-2022 Znuny GmbH, https://znuny.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
-# the enclosed file COPYING for license information (GPL). If you
-# did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
+# the enclosed file COPYING for license information (AGPL). If you
+# did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
 # --
 
 package Kernel::Language::pl_GeneralCatalog;
@@ -35,7 +35,7 @@ sub Data {
     # SysConfig
     $Self->{Translation}->{'Comment 2'} = 'Komentarz 2';
     $Self->{Translation}->{'Create and manage the General Catalog.'} = 'Utwórz i zarządzaj katalogiem głównym.';
-    $Self->{Translation}->{'Define the general catalog comment 2.'} = 'Definiuj komentarz 2 do katalogu głównego';
+    $Self->{Translation}->{'Define the general catalog comment 2.'} = 'Definiuj komentarz 2 do katalogu głównego.';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
         'Rejestracja modułu frontend do konfiguracji modułu AdminGeneralCatalog w panelu administratora.';
     $Self->{Translation}->{'General Catalog'} = 'Katalog główny';
