@@ -249,7 +249,7 @@ sub Run {
                     $ParamItem->{'Option'} = $LayoutObject->BuildSelection(
                         %{ $Preferences{$Item} },
                         %{$ParamItem},
-                        Class       => 'Modernize',
+                        Class       => $ParamItem->{CSSClass} || 'Modernize',
                         Translation => 0,
                     );
                 }

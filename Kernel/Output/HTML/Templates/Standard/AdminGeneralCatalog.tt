@@ -225,7 +225,7 @@
                         <div class="Clear"></div>
 [% RenderBlockEnd("TextArea") %]
 [% RenderBlockStart("Option") %]
-                        <label for="[% Data.Name | html %]">[% Translate(Data.Label) | html %] [% Translate(Data.Key) | html %]:<br/>
+                        <label [% IF (Data.Mandatory) %] class='Mandatory' for="[% Data.Name | html %]"><span class="Marker">*</span>[% ELSE %]for="[% Data.Name | html %]">[% END %][% Translate(Data.Label) | html %][% IF Data.Key %] [% Translate(Data.Key) | html %][% END %]:<br/>
                         [% IF (Data.Desc) %]
                             <em>([% Translate(Data.Desc) | html %])</em>
                         [% END %]

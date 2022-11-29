@@ -54,6 +54,10 @@ sub Param {
         $Param{Data}         = { $Kernel::OM->Get('Kernel::System::Group')->GroupList( Valid => 1 ) };
         $Param{PossibleNone} = 1;
         $Param{Block}        = 'Option';
+
+        if ( $Self->{ConfigItem}->{Mandatory} ) {
+            $Param{CSSClass} = 'Validate_Required Modernize';
+        }
     }
 
     push(
