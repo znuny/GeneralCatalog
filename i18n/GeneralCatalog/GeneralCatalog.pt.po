@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
 "PO-Revision-Date: 2023-03-05 15:24+0000\n"
 "Last-Translator: Rúben Sardinha <ruben.sardinha@outlook.com>\n"
-"Language-Team: Portuguese <https://translations.znuny.org/projects/znuny/"
-"generalcatalog/pt/>\n"
+"Language-Team: Portuguese <https://translations.znuny.org/projects/znuny/generalcatalog/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,3 +91,4 @@ msgstr "Parâmetros para os grupos de permissão de exemplo dos atributos do cat
 #. SysConfig
 msgid "Permission Group"
 msgstr "Permissão de Grupo"
+
