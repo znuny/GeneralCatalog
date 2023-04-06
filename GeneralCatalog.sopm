@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>GeneralCatalog</Name>
-    <Version>6.5.1</Version>
+    <Version>7.0.1</Version>
     <Framework>7.0.x</Framework>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
@@ -10,6 +10,7 @@
     <Description Lang="de">Das General Catalog Paket.</Description>
     <Description Lang="es">El paquete General Catalog.</Description>
     <Description Lang="hu">Az általános katalógus csomag.</Description>
+    <ChangeLog Version="7.0.1" Date="2023-04-06 13:04:25 +0200">Initial release for Znuny 7.0.</ChangeLog>
     <ChangeLog Version="6.5.1" Date="2023-02-20 13:07:09 +0100">Initial release for Znuny 6.5.</ChangeLog>
     <ChangeLog Version="6.4.3" Date="2022-11-08 21:35:07 +0100">Updated translations.</ChangeLog>
     <ChangeLog Version="6.4.2" Date="2022-07-28 15:05:28 +0200">Release for Znuny 6.4.2.</ChangeLog>
