@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
 "PO-Revision-Date: 2023-04-06 11:51+0000\n"
 "Last-Translator: Denny Korsukéwitz <dk@znuny.com>\n"
-"Language-Team: German <https://translations.znuny.org/projects/znuny-lts/"
-"generalcatalog/de/>\n"
+"Language-Team: German <https://translations.znuny.org/projects/znuny-lts/generalcatalog/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,3 +91,4 @@ msgstr "Parameter für die zugriffsberechtigte Gruppe der General Katalog-Attrib
 #. SysConfig
 msgid "Permission Group"
 msgstr "Berechtigungsgruppe"
+
