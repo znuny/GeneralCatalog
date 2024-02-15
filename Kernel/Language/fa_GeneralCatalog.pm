@@ -19,13 +19,13 @@ sub Data {
     $Self->{Translation}->{'Functionality'} = 'کارکردی';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
-    $Self->{Translation}->{'General Catalog Management'} = 'مدیریت فهرست عمومی';
-    $Self->{Translation}->{'Items in Class'} = '';
-    $Self->{Translation}->{'Edit Item'} = '';
-    $Self->{Translation}->{'Add Class'} = '';
-    $Self->{Translation}->{'Add Item'} = '';
     $Self->{Translation}->{'Add Catalog Item'} = 'اضافه کردن یک قلم فهرست';
     $Self->{Translation}->{'Add Catalog Class'} = 'اضافه کردن کلاس فهرستی';
+    $Self->{Translation}->{'Items in Class'} = '';
+    $Self->{Translation}->{'Edit Item'} = '';
+    $Self->{Translation}->{'General Catalog Management'} = 'مدیریت فهرست عمومی';
+    $Self->{Translation}->{'Add Class'} = '';
+    $Self->{Translation}->{'Add Item'} = '';
     $Self->{Translation}->{'Catalog Class'} = 'فهرست کلاسی';
     $Self->{Translation}->{'Edit Catalog Item'} = '';
 

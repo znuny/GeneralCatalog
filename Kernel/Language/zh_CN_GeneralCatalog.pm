@@ -19,13 +19,13 @@ sub Data {
     $Self->{Translation}->{'Functionality'} = '功能';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
-    $Self->{Translation}->{'General Catalog Management'} = '目录管理';
-    $Self->{Translation}->{'Items in Class'} = 'XXX以下条目属于类';
-    $Self->{Translation}->{'Edit Item'} = '编辑条目';
-    $Self->{Translation}->{'Add Class'} = '添加类';
-    $Self->{Translation}->{'Add Item'} = '添加条目';
     $Self->{Translation}->{'Add Catalog Item'} = '添加目录项目';
     $Self->{Translation}->{'Add Catalog Class'} = '添加新目录类';
+    $Self->{Translation}->{'Items in Class'} = 'XXX以下条目属于类';
+    $Self->{Translation}->{'Edit Item'} = '编辑条目';
+    $Self->{Translation}->{'General Catalog Management'} = '目录管理';
+    $Self->{Translation}->{'Add Class'} = '添加类';
+    $Self->{Translation}->{'Add Item'} = '添加条目';
     $Self->{Translation}->{'Catalog Class'} = '目录类';
     $Self->{Translation}->{'Edit Catalog Item'} = '编辑目录项目';
 

@@ -19,13 +19,13 @@ sub Data {
     $Self->{Translation}->{'Functionality'} = 'Funkcionalitás';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
-    $Self->{Translation}->{'General Catalog Management'} = 'Általános katalógus kezelés';
-    $Self->{Translation}->{'Items in Class'} = 'Elemek az osztályban';
-    $Self->{Translation}->{'Edit Item'} = 'Elem szerkesztése';
-    $Self->{Translation}->{'Add Class'} = 'Osztály hozzáadása';
-    $Self->{Translation}->{'Add Item'} = 'Elem hozzáadása';
     $Self->{Translation}->{'Add Catalog Item'} = 'Katalóguselem hozzáadása';
     $Self->{Translation}->{'Add Catalog Class'} = 'Katalógusosztály hozzáadása';
+    $Self->{Translation}->{'Items in Class'} = 'Elemek az osztályban';
+    $Self->{Translation}->{'Edit Item'} = 'Elem szerkesztése';
+    $Self->{Translation}->{'General Catalog Management'} = 'Általános katalógus kezelés';
+    $Self->{Translation}->{'Add Class'} = 'Osztály hozzáadása';
+    $Self->{Translation}->{'Add Item'} = 'Elem hozzáadása';
     $Self->{Translation}->{'Catalog Class'} = 'Katalógusosztály';
     $Self->{Translation}->{'Edit Catalog Item'} = 'Katalóguselem szerkesztése';
 

@@ -19,13 +19,13 @@ sub Data {
     $Self->{Translation}->{'Functionality'} = 'Funkcjonalność';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
-    $Self->{Translation}->{'General Catalog Management'} = 'Zarządzanie katalogiem głównym';
-    $Self->{Translation}->{'Items in Class'} = 'Elementy klasy';
-    $Self->{Translation}->{'Edit Item'} = 'Edytuj element';
-    $Self->{Translation}->{'Add Class'} = 'Dodaj klasę';
-    $Self->{Translation}->{'Add Item'} = 'Dodaj element';
     $Self->{Translation}->{'Add Catalog Item'} = 'Dodaj element katalogu';
     $Self->{Translation}->{'Add Catalog Class'} = 'Dodaj klasę katalogu';
+    $Self->{Translation}->{'Items in Class'} = 'Elementy klasy';
+    $Self->{Translation}->{'Edit Item'} = 'Edytuj element';
+    $Self->{Translation}->{'General Catalog Management'} = 'Zarządzanie katalogiem głównym';
+    $Self->{Translation}->{'Add Class'} = 'Dodaj klasę';
+    $Self->{Translation}->{'Add Item'} = 'Dodaj element';
     $Self->{Translation}->{'Catalog Class'} = 'Klasa katalogu';
     $Self->{Translation}->{'Edit Catalog Item'} = 'Edytuj element katalogu';
 

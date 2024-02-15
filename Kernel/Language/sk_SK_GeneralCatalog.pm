@@ -16,16 +16,16 @@ sub Data {
     my $Self = shift;
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
-    $Self->{Translation}->{'Functionality'} = '';
+    $Self->{Translation}->{'Functionality'} = 'Funkcionalita';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
-    $Self->{Translation}->{'General Catalog Management'} = '';
-    $Self->{Translation}->{'Items in Class'} = '';
-    $Self->{Translation}->{'Edit Item'} = '';
-    $Self->{Translation}->{'Add Class'} = '';
-    $Self->{Translation}->{'Add Item'} = '';
     $Self->{Translation}->{'Add Catalog Item'} = '';
     $Self->{Translation}->{'Add Catalog Class'} = '';
+    $Self->{Translation}->{'Items in Class'} = 'Položky v triede';
+    $Self->{Translation}->{'Edit Item'} = 'Upraviť položku';
+    $Self->{Translation}->{'General Catalog Management'} = '';
+    $Self->{Translation}->{'Add Class'} = 'Pridať triedu';
+    $Self->{Translation}->{'Add Item'} = 'Pridať položku';
     $Self->{Translation}->{'Catalog Class'} = '';
     $Self->{Translation}->{'Edit Catalog Item'} = '';
 
