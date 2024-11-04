@@ -33,9 +33,9 @@ sub Data {
     $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = '';
 
     # SysConfig
-    $Self->{Translation}->{'Comment 2'} = '';
+    $Self->{Translation}->{'Comment 2'} = 'Комментарий 2';
     $Self->{Translation}->{'Create and manage the General Catalog.'} = 'Создание и управление Общим каталогом.';
-    $Self->{Translation}->{'Define the general catalog comment 2.'} = '';
+    $Self->{Translation}->{'Define the general catalog comment 2.'} = 'Задать комментарий 2 общего каталога.';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
         'Module registration для конфигурации AdminGeneralCatalog в панели администратора.';
     $Self->{Translation}->{'General Catalog'} = 'Общий каталог';
@@ -43,7 +43,7 @@ sub Data {
         'Добавление дополнительного комментария к атрибутам Общего каталога.';
     $Self->{Translation}->{'Parameters for the example permission groups of the general catalog attributes.'} =
         'Параметры для примерных групповых прав для атрибутов Общего каталога.';
-    $Self->{Translation}->{'Permission Group'} = '';
+    $Self->{Translation}->{'Permission Group'} = 'Группа доступа';
 
 
     push @{ $Self->{JavaScriptStrings} //= [] }, (
