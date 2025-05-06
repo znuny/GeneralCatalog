@@ -2,15 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
-"PO-Revision-Date: 2022-03-14 18:19+0000\n"
-"Last-Translator: Weblate Admin <operations@znuny.com>\n"
-"Language-Team: German <https://translations.znuny.org/projects/znuny/generalcatalog/de/>\n"
+"PO-Revision-Date: 2025-05-06 19:52+0000\n"
+"Last-Translator: Hog Duske <hog.duske@dusketech.de>\n"
+"Language-Team: German <https://translations.znuny.org/projects/znuny/"
+"generalcatalog/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
 msgid "Functionality"
@@ -34,7 +35,7 @@ msgstr "Klasse hinzufügen"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Item"
-msgstr "Füge Item hinzu"
+msgstr "Item hinzufügen"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Catalog Item"
@@ -54,7 +55,8 @@ msgstr "Katalogelement bearbeiten"
 
 #. JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
 msgid "Warning incident state can not be set to invalid."
-msgstr "Der Status Warnung für Vorfälle kann nicht auf ungültig gesetzt werden."
+msgstr ""
+"Der Status \"Warnung für Vorfälle\" kann nicht auf ungültig gesetzt werden."
 
 #. SysConfig
 msgid "Comment 2"
@@ -86,9 +88,10 @@ msgstr "Parameter für den Beispiel-Kommentar 2 der General Katalog-Attribute."
 
 #. SysConfig
 msgid "Parameters for the example permission groups of the general catalog attributes."
-msgstr "Parameter für die zugriffsberechtigte Gruppe der General Katalog-Attribute."
+msgstr ""
+"Parameter für die Beispiel Zugriffsberechtigungs Gruppe der General Katalog-"
+"Attribute."
 
 #. SysConfig
 msgid "Permission Group"
 msgstr "Berechtigungsgruppe"
-
