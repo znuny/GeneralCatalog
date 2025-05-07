@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
 "PO-Revision-Date: 2025-05-06 19:52+0000\n"
 "Last-Translator: Hog Duske <hog.duske@dusketech.de>\n"
-"Language-Team: German <https://translations.znuny.org/projects/znuny/"
-"generalcatalog/de/>\n"
+"Language-Team: German <https://translations.znuny.org/projects/znuny/generalcatalog/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,8 +54,7 @@ msgstr "Katalogelement bearbeiten"
 
 #. JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
 msgid "Warning incident state can not be set to invalid."
-msgstr ""
-"Der Status \"Warnung für Vorfälle\" kann nicht auf ungültig gesetzt werden."
+msgstr "Der Status \"Warnung für Vorfälle\" kann nicht auf ungültig gesetzt werden."
 
 #. SysConfig
 msgid "Comment 2"
@@ -88,10 +86,9 @@ msgstr "Parameter für den Beispiel-Kommentar 2 der General Katalog-Attribute."
 
 #. SysConfig
 msgid "Parameters for the example permission groups of the general catalog attributes."
-msgstr ""
-"Parameter für die Beispiel Zugriffsberechtigungs Gruppe der General Katalog-"
-"Attribute."
+msgstr "Parameter für die Beispiel Zugriffsberechtigungs Gruppe der General Katalog-Attribute."
 
 #. SysConfig
 msgid "Permission Group"
 msgstr "Berechtigungsgruppe"
+

@@ -25,12 +25,12 @@ sub Data {
     $Self->{Translation}->{'Edit Item'} = 'Ändere das Item';
     $Self->{Translation}->{'General Catalog Management'} = 'General Katalog-Verwaltung';
     $Self->{Translation}->{'Add Class'} = 'Klasse hinzufügen';
-    $Self->{Translation}->{'Add Item'} = 'Füge Item hinzu';
+    $Self->{Translation}->{'Add Item'} = 'Item hinzufügen';
     $Self->{Translation}->{'Catalog Class'} = 'Katalogklasse';
     $Self->{Translation}->{'Edit Catalog Item'} = 'Katalogelement bearbeiten';
 
     # JS File: var/httpd/htdocs/js/ITSM.GeneralCatalog.js
-    $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = 'Der Status Warnung für Vorfälle kann nicht auf ungültig gesetzt werden.';
+    $Self->{Translation}->{'Warning incident state can not be set to invalid.'} = 'Der Status "Warnung für Vorfälle" kann nicht auf ungültig gesetzt werden.';
 
     # SysConfig
     $Self->{Translation}->{'Comment 2'} = 'Kommentar 2';
@@ -42,7 +42,7 @@ sub Data {
     $Self->{Translation}->{'Parameters for the example comment 2 of the general catalog attributes.'} =
         'Parameter für den Beispiel-Kommentar 2 der General Katalog-Attribute.';
     $Self->{Translation}->{'Parameters for the example permission groups of the general catalog attributes.'} =
-        'Parameter für die zugriffsberechtigte Gruppe der General Katalog-Attribute.';
+        'Parameter für die Beispiel Zugriffsberechtigungs Gruppe der General Katalog-Attribute.';
     $Self->{Translation}->{'Permission Group'} = 'Berechtigungsgruppe';
 
 
