@@ -46,7 +46,7 @@ sub Data {
     $Self->{Translation}->{'Permission Group'} = 'Uprawnienia grup';
 
 
-    push @{ $Self->{JavaScriptStrings} // [] }, (
+    push @{ $Self->{JavaScriptStrings} //= [] }, (
     'Cancel',
     'Warning',
     'Warning incident state can not be set to invalid.',

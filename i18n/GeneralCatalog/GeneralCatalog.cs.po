@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
 "PO-Revision-Date: 2025-04-16 13:45+0000\n"
 "Last-Translator: Jiří Gladavský <glady@seznam.cz>\n"
-"Language-Team: Czech <https://translations.znuny.org/projects/znuny-lts/"
-"generalcatalog/cs/>\n"
+"Language-Team: Czech <https://translations.znuny.org/projects/znuny-lts/generalcatalog/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,9 +74,7 @@ msgstr "Definuj URL adresu JS Color Picker."
 
 #. SysConfig
 msgid "Frontend module registration for the AdminGeneralCatalog configuration in the admin area."
-msgstr ""
-"Registrační modul na frontendu pro konfiguraci hlavního katalogu v "
-"administrativní oblasti."
+msgstr "Registrační modul na frontendu pro konfiguraci hlavního katalogu v administrativní oblasti."
 
 #. SysConfig
 msgid "General Catalog"
@@ -94,3 +91,4 @@ msgstr "Parametry skupiny pro příklad oprávnění obecných atributů katalog
 #. SysConfig
 msgid "Permission Group"
 msgstr "Oprávnění skupiny"
+
