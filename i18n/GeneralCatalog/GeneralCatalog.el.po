@@ -2,35 +2,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
 "POT-Creation-Date: 2020-01-24 11:05+0000\n"
-"PO-Revision-Date: 2022-03-14 11:24+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Greek <https://translations.znuny.org/projects/znuny/generalcatalog/el/>\n"
+"PO-Revision-Date: 2025-07-22 09:14+0000\n"
+"Last-Translator: Spyros <spyros.veronikis@gmail.com>\n"
+"Language-Team: Greek <https://translations.znuny.org/projects/znuny-lts/"
+"generalcatalog/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AAAGeneralCatalog.tt
 msgid "Functionality"
-msgstr ""
+msgstr "Λειτουργικότητα"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "General Catalog Management"
-msgstr ""
+msgstr "Διαχείριση Γενικού Καταλόγου"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Items in Class"
-msgstr ""
+msgstr "Αντικείμενα στην Κλάση"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Edit Item"
-msgstr ""
+msgstr "Διόρθωση Αντικειμένου"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Class"
-msgstr ""
+msgstr "Προσθήκη Κλάσης"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminGeneralCatalog.tt
 msgid "Add Item"
@@ -91,4 +92,3 @@ msgstr ""
 #. SysConfig
 msgid "Permission Group"
 msgstr ""
-
