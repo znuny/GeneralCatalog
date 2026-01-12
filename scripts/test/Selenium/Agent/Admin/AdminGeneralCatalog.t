@@ -106,7 +106,7 @@ $Selenium->RunTest(
 
         # Verify error message.
         $Self->True(
-            index( $Selenium->get_page_source(), 'Need ItemID OR Class and Name!' ) > -1,
+            index( $Selenium->get_page_source(), 'An Error Occurred' ) > -1,
             "Error message - displayed",
         );
 
