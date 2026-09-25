@@ -23,7 +23,7 @@ sub Data {
     $Self->{Translation}->{'Add Catalog Class'} = '';
     $Self->{Translation}->{'Items in Class'} = '';
     $Self->{Translation}->{'Edit Item'} = 'Editare element';
-    $Self->{Translation}->{'General Catalog Management'} = '';
+    $Self->{Translation}->{'General Catalog Management'} = 'Gestionarea catalogului general';
     $Self->{Translation}->{'Add Class'} = '';
     $Self->{Translation}->{'Add Item'} = 'Adaugă element';
     $Self->{Translation}->{'Catalog Class'} = '';
