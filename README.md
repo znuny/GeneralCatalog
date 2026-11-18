@@ -26,7 +26,7 @@ The General Catalog is required by other ITSM packages (e.g. ITSMConfigurationMa
 
 **Prerequisites**
 
-- Znuny 7.3
+- Znuny 7.5
 
 **Installation**
 
